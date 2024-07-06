@@ -15,6 +15,10 @@ h1, h2, h3, h4, h5, h6, p {
 }
 a {text-decoration: none;}
 
+img {
+        display: block;
+}
+
 /* HEADER */
 .container {
         max-width: 1158px;
@@ -100,6 +104,7 @@ a {text-decoration: none;}
 /* HERO */
 .hero {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 .hero-name {
 
@@ -125,6 +130,12 @@ background-color: #404BBF
 }
 
 /* SECTION ADVANTAGES */
+.advantages {
+        display: flex;
+}
+.advatages-list {
+        display: flex;
+}
 .sectionname {
         font-weight: 700;
         font-size: 36px;
