@@ -227,6 +227,9 @@ background-color: #f4f4fd;
 footer {
     background-color:#2e2f42;
 }
+.page-footer {
+        padding: 100px 0;
+}
 .footer-logo .logo-part {
     color: #f4f4fd;}
 .footer-text {
@@ -235,4 +238,9 @@ footer {
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+}
+
+.footer-logo {
+        display: inline-block;
+        margin-bottom: 16px;
 }
