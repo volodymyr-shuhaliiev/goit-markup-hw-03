@@ -137,11 +137,17 @@ background-color: #404BBF
 }
 
 /* SECTION ADVANTAGES */
+
+.visualy-hidden {
+        position: absolute;
+}
 .advantages {
         display: flex;
+        padding: 120px 0;
 }
-.advatages-list {
+.advantages-list {
         display: flex;
+        gap: 24px;
 }
 .sectionname {
         font-weight: 700;
@@ -161,6 +167,8 @@ background-color: #f4f4fd;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        width: calc((100% - 72px) / 4);
+        margin-bottom: 8px;
 }
 .advatages-text {
         font-size: 16px;
