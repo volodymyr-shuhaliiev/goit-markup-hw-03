@@ -141,8 +141,8 @@ background-color: #404BBF
         padding: 120px 0
 }
 
-.visualy-hidden {
-        visibility: hidden;
+.visually-hidden {
+      visibility: hidden;
 }
 .advantages {
         display: flex;
