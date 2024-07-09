@@ -99,6 +99,7 @@ img {
 
 .contact-list {
         display: flex;
+        gap: 40px;
 }
 
 /* HERO */
